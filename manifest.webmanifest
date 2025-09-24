@@ -1,0 +1,21 @@
+{
+  "name": "3x5",
+  "short_name": "3x5",
+  "id": "./",
+  "start_url": "./",
+  "display": "standalone",
+
+  "background_color": "#ffffff",
+  "theme_color": "#373737",
+  "prefer_related_applications": false,
+  "description": "Your secrets, never-stored-never-transmitted",
+  "author": "Venkatesh Ramakrishnan",
+
+  "icons": [
+    {
+      "src": "3x5-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

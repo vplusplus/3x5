@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3x5</title>
+    <base href="/3x5/" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="manifest.webmanifest" rel="manifest" />
+    <link rel="apple-touch-icon" sizes="512x512" href="3x5-512.png" />
+</head>
+
+<body>
+
+    <!-- Splash -->
+    <div id="app">
+        <div class="main py-2 px-4">
+            <h2>Three x 5</h2>
+            <h5 class="text-muted">Almost there...</h5>
+        </div>
+    </div>
+
+    <!-- Light-up Blazor -->
+    <script src="_framework/blazor.webassembly.js"></script>
+
+    <!-- Enable PWA -->
+    <script>navigator.serviceWorker.register('service-worker.js');</script>
+
+</body>
+
+</html>
